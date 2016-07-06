@@ -38,9 +38,9 @@ constructor() {
 
    render() {
       return (
-         <div style={boxStyle}>
+         <div>
            <table>
-             <tbody>      
+             <tbody>
                  {this.state.data.map((person, i) => <ListItem key = {i} data = {person} />)}
              </tbody>
            </table>
