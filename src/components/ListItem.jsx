@@ -1,20 +1,11 @@
 import React from 'react';
 
 
-var boxStyle ={
-  height:200,
-  width:700,
-  backgroundColor: 'lightblue'
-};
-
 class ListItem extends React.Component {
-
 
    render() {
       return (
-         <div style={boxStyle}>
-
-         </div>
+         <tr><td>{this.props.data.id} {this.props.data.name} {this.props.data.age}</td></tr>
       );
    }
 }

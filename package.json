@@ -1,7 +1,7 @@
 {
   "name": "react_stack",
   "version": "1.0.0",
-  "description": "An example for React Flux React-Router Material-ui",
+  "description": "An example for React Flux React-Router Material-ui using webpack",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
@@ -25,6 +25,7 @@
   "dependencies": {
     "react": "^15.2.0",
     "react-dom": "^15.2.0",
+    "react-router": "^2.5.2",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   }
