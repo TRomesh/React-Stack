@@ -11,7 +11,14 @@ import Home from './src/components/Home.jsx';
 
 const App = () => (
   <MuiThemeProvider>
-    <Home/>
+  <Router history = {browserHistory}>
+        <Route path = "/" component = {Home}>
+           <IndexRoute component = {Home} />
+           <Route path = "home" component = {List} />
+           <Route path = "about" component = {Subhead} />
+           <Route path = "contact" component = {ButtonApp} />
+        </Route>
+     </Router>
   </MuiThemeProvider>
 );
 
